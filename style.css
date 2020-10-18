@@ -1,0 +1,413 @@
+body {
+  padding: 0;
+  margin: 0;
+
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;  
+  color: #2E2F22;
+
+  background-color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  white-space: nowrap;
+  border: 0;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+}
+
+.page-header {
+  width: 1440px;
+  height: 581px;
+
+  margin: 0 auto;
+
+  background-image: url("img/sonnie1.jpg");
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-navigation a {
+  cursor: pointer;
+}
+
+.main-navigation img {
+  width: 130px;
+  height: 82.51px;
+  padding-top: 4px;
+  padding-left: 120px;
+}
+
+.site-navigation {
+  list-style: none;
+
+  display: flex; 
+  flex-wrap: wrap; 
+
+  padding: 0;
+  padding-top: 33px;
+  margin: 0;
+  margin-right: 121px;
+
+  font-size: 18px;
+  line-height: 25px; 
+}
+
+.site-navigation a {
+  margin-left: 83px;
+  text-decoration: none;  
+  color: #2E2F22;
+}
+
+.container {
+  width: 1200px;
+  margin: 85px auto;
+
+  position: relative;
+}
+
+.title {
+  margin: 0;
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 55px;
+}
+
+.select-topic {
+  position: absolute;
+
+  top: 0;
+  right: 0;
+}
+
+.first-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-line-topic {
+  width: 387px;
+}
+
+.first-line-topic .photo {  
+  width: 387px;
+  height: 268px;
+
+  margin-top: 50px;
+
+  border-radius: 10px;  
+  background-color: #C4C4C4;
+}
+
+.first-line-topic:nth-child(1) .photo { 
+  background-image: url(img/news/image\ 1.jpg);
+}
+
+.first-line-topic:nth-child(2) .photo { 
+  background-image: url(img/news/image\ 2.jpg);
+}
+
+.first-line-topic:nth-child(3) .photo { 
+  background-image: url(img/news/image\ 3.jpg);
+}
+
+.article-title {
+  margin-top: 28px;
+  margin-bottom: 8px;
+
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.article-text {
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.meta-info {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.7;
+}
+
+.meta-info p {
+  margin: 0;
+}
+
+.second-line {  
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 62px;
+
+  color: #FFFFFF;
+}
+
+.second-line .advt {
+  margin-top: 360px;
+  margin-left: 83px;
+  margin-right: 80px;
+}
+
+.second-line .article-title {
+  font-size: 20px;
+  line-height: 30px;  
+}
+
+.second-line .article-text {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.second-line-topic {
+  width: 590px;
+  height: 552px;  
+
+  border-radius: 10px;  
+  background-color: #C4C4C4;
+}
+
+.second-line-topic:nth-child(1) {
+  background-image: url(img/news/image\ 4.jpg);
+}
+
+.second-line-topic:nth-child(2) {
+  background-image: url(img/news/image\ 5.jpg);
+}
+
+.button {
+  width: 224px;
+  height: 46px;
+  display: block;
+  box-sizing: border-box;
+  padding-top: 12px;
+
+  line-height: 22px;  
+
+  border: 1px solid #202117;  
+  border-radius: 10px;
+}
+ 
+.show-more {  
+  margin: 0 auto;
+  margin-top: 105px;
+  
+  padding-left: 57px;
+
+  color: #202117;
+}
+
+.about-me {
+  margin: 85px auto;
+}
+
+.about-me .title,
+.portfolio .title,
+.write-me .title {
+  text-align: center;
+}
+
+.about-me-wrap {
+  margin-top: 50px;
+  display: flex;
+}
+
+.about-me-photo img{
+  min-width: 590px;
+  min-height: 693px;
+  
+  border-radius: 10px;  
+  background-color: #C4C4C4;
+}
+
+.about-me-info {  
+  margin-left: 40px;
+}
+
+.about-me-info-intro {
+  width: 497px;
+
+  margin-top: 43px;
+}
+
+.about-me-info-intro p {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.about-me-info-motto {
+  position: relative;
+
+  width: 570px;
+  margin-top: 105px;
+
+  font-style: italic;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.about-me-info-motto::before {
+  position: absolute;
+  content: "";
+
+  width: 3px;
+  height: 214.15px;  
+
+  bottom: -28px;
+  left: -20px;  
+
+  background-color: #D7D1C9;
+}
+
+.portfolio {
+  margin-top: 85px;
+}
+
+.portfolio-wrap {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio-item {
+  width: 387px;
+  height: 525px;
+  
+  border-radius: 10px;  
+  background-color: #C4C4C4;
+}
+
+.portfolio-item:nth-child(1) {
+  background-image: url(img/portfolio/image\ 8.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  color: #2E2F22;
+}
+
+.portfolio-item:nth-child(2) {
+  background-image: url(img/portfolio/image\ 7.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  color: #FFFFFF;
+}
+
+.portfolio-item:nth-child(3) {
+  background-image: url(img/portfolio/image\ 9.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  color: #2E2F22;
+}
+
+.portfolio-item .journal-title {
+  margin-top: 140px;
+
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.portfolio-item .article-title {
+  margin-top: 44px;
+
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.portfolio-item .portfolio-text {
+  margin-top: 17px;
+
+  text-align: center;
+}
+
+.write-me .feedback {
+  width: 996px;
+
+  margin: 0 auto;
+  margin-top: 50px; 
+  
+  background-image: url(img/writeme/annie-spratt--5-ZN1vzVTQ-unsplash\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #C4C4C4;
+
+  border-radius: 10px;  
+}
+
+.feedback fieldset {
+  border: none;
+
+  width: 837px;
+
+  margin: 0 auto;    
+  margin-top: 53px;
+}
+
+.feedback label {
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  
+  color: #2E2F22;
+}
+
+fieldset::placeholder {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  
+  color: #202117;
+  opacity: 0.7;
+}
+
+.page-footer {
+  background-color: #D7D1C9;
+}
+
+.social-wrap {
+  width: 630px;
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 auto;
+}
+
+.social-wrap a { 
+  display: block;
+  
+  margin-top: 65px;
+  margin-bottom: 90px;
+
+  text-decoration: none;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  
+  color: #2E2F22;
+}
