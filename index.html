@@ -44,13 +44,14 @@
           <h2 class="title" id="news">Все статьи</h2>
 
           <div class="select-topic">
-            <select name="topics">
+            <select name id class="topics">
               <option selected>Выбрать тему</option>
-              <option>Путешествия</option>
-              <option>Город</option>
-              <option>Книги</option>
-              <option>Фотографии</option>
-              <option>Рецепты</option>
+              <option value="путешествия">Путешествия</option>
+              <option value="город">Город</option>
+              <option value="книги">Книги</option>
+              <option value="фотографии">Фотографии</option>
+              <option value="рецепты">Рецепты</option>
+              <option value="все">Все</option>
             </select>
           </div>  
           
@@ -225,29 +226,34 @@
       
       <section class="write-me">
         <h2 class="title" id="writeme">Написать мне</h2>
-
-        <form class="feedback" action="https://echo.htmlacademy.ru/courses" method="post">
-          <fieldset>            
-
-            <label>
-              Ваше имя<br>
-              <input type="text" name="name" placeholder="Иван Иванов"  
-              pattern="^[A-Za-zА-Яа-яЁё\s\-]+$" required> 
-            </label>
-
-            <label>
-              Email<br>
-              <input type="email" name="email" placeholder="google@gmail.com">                
-            </label>
-
-            <label>
-              Сообщение<br>
-              <input type="text" name="message" placeholder="Напишите здесь ваше сообщение."> 
-            </label>
-            
-            <input type="submit" value="Отправить">
-          </fieldset>                              
-        </form>        
+        
+        <div class="feedback-wrap">
+          <form class="feedback" action="https://echo.htmlacademy.ru/courses" method="post">
+            <fieldset> 
+              <div class="contacts">
+                <label>
+                  Ваше имя<br>
+                  <input type="text" name="name" placeholder="Иван Иванов"  
+                  pattern="^[A-Za-zА-Яа-яЁё\s\-]+$" required> 
+                </label>
+    
+                <label>
+                  Email<br>
+                  <input type="email" name="email" placeholder="google@gmail.com">                
+                </label>
+              </div>     
+              
+              <div class="message">
+                <label>
+                  Сообщение<br>
+                  <input type="text" name="message" placeholder="Напишите здесь ваше сообщение."> 
+                </label>
+              </div>             
+              
+              <input class="button" type="submit" value="Отправить">
+            </fieldset>                              
+          </form>        
+        </div>        
       </section>      
     </main>
 

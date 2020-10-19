@@ -6,8 +6,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  text-align: left;  
-  color: #2E2F22;
+  text-align: left;
+  color: #2e2f22;
 
   background-color: #ffffff;
 }
@@ -57,8 +57,8 @@ img {
 .site-navigation {
   list-style: none;
 
-  display: flex; 
-  flex-wrap: wrap; 
+  display: flex;
+  flex-wrap: wrap;
 
   padding: 0;
   padding-top: 33px;
@@ -66,13 +66,13 @@ img {
   margin-right: 121px;
 
   font-size: 18px;
-  line-height: 25px; 
+  line-height: 25px;
 }
 
 .site-navigation a {
   margin-left: 83px;
-  text-decoration: none;  
-  color: #2E2F22;
+  text-decoration: none;
+  color: #2e2f22;
 }
 
 .container {
@@ -97,6 +97,23 @@ img {
   right: 0;
 }
 
+.topics {  
+  width: 203px;
+  height: 46px;
+  border-radius: 10px;
+
+  padding: 12px 0;
+  padding-left: 20px;
+
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2e2f22;
+  appearance: none;
+  background: url(source/Polygon\ 1.svg) 90% / 9% no-repeat #d7d1c9;
+  border: none;
+}
+
 .first-line {
   display: flex;
   justify-content: space-between;
@@ -106,25 +123,25 @@ img {
   width: 387px;
 }
 
-.first-line-topic .photo {  
+.first-line-topic .photo {
   width: 387px;
   height: 268px;
 
   margin-top: 50px;
 
-  border-radius: 10px;  
-  background-color: #C4C4C4;
+  border-radius: 10px;
+  background-color: #c4c4c4;
 }
 
-.first-line-topic:nth-child(1) .photo { 
+.first-line-topic:nth-child(1) .photo {
   background-image: url(img/news/image\ 1.jpg);
 }
 
-.first-line-topic:nth-child(2) .photo { 
+.first-line-topic:nth-child(2) .photo {
   background-image: url(img/news/image\ 2.jpg);
 }
 
-.first-line-topic:nth-child(3) .photo { 
+.first-line-topic:nth-child(3) .photo {
   background-image: url(img/news/image\ 3.jpg);
 }
 
@@ -151,13 +168,13 @@ img {
   margin: 0;
 }
 
-.second-line {  
+.second-line {
   display: flex;
   justify-content: space-between;
 
   margin-top: 62px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .second-line .advt {
@@ -168,7 +185,7 @@ img {
 
 .second-line .article-title {
   font-size: 20px;
-  line-height: 30px;  
+  line-height: 30px;
 }
 
 .second-line .article-text {
@@ -178,10 +195,10 @@ img {
 
 .second-line-topic {
   width: 590px;
-  height: 552px;  
+  height: 552px;
 
-  border-radius: 10px;  
-  background-color: #C4C4C4;
+  border-radius: 10px;
+  background-color: #c4c4c4;
 }
 
 .second-line-topic:nth-child(1) {
@@ -199,16 +216,16 @@ img {
   box-sizing: border-box;
   padding-top: 12px;
 
-  line-height: 22px;  
+  line-height: 22px;
 
-  border: 1px solid #202117;  
+  border: 1px solid #202117;
   border-radius: 10px;
 }
- 
-.show-more {  
+
+.show-more {
   margin: 0 auto;
   margin-top: 105px;
-  
+
   padding-left: 57px;
 
   color: #202117;
@@ -229,15 +246,15 @@ img {
   display: flex;
 }
 
-.about-me-photo img{
+.about-me-photo img {
   min-width: 590px;
   min-height: 693px;
-  
-  border-radius: 10px;  
-  background-color: #C4C4C4;
+
+  border-radius: 10px;
+  background-color: #c4c4c4;
 }
 
-.about-me-info {  
+.about-me-info {
   margin-left: 40px;
 }
 
@@ -268,12 +285,12 @@ img {
   content: "";
 
   width: 3px;
-  height: 214.15px;  
+  height: 214.15px;
 
   bottom: -28px;
-  left: -20px;  
+  left: -20px;
 
-  background-color: #D7D1C9;
+  background-color: #d7d1c9;
 }
 
 .portfolio {
@@ -289,9 +306,9 @@ img {
 .portfolio-item {
   width: 387px;
   height: 525px;
-  
-  border-radius: 10px;  
-  background-color: #C4C4C4;
+
+  border-radius: 10px;
+  background-color: #c4c4c4;
 }
 
 .portfolio-item:nth-child(1) {
@@ -299,7 +316,7 @@ img {
   background-repeat: no-repeat;
   background-size: 100%;
 
-  color: #2E2F22;
+  color: #2e2f22;
 }
 
 .portfolio-item:nth-child(2) {
@@ -307,7 +324,7 @@ img {
   background-repeat: no-repeat;
   background-size: 100%;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .portfolio-item:nth-child(3) {
@@ -315,7 +332,7 @@ img {
   background-repeat: no-repeat;
   background-size: 100%;
 
-  color: #2E2F22;
+  color: #2e2f22;
 }
 
 .portfolio-item .journal-title {
@@ -344,49 +361,108 @@ img {
   text-align: center;
 }
 
-.write-me .feedback {
+.write-me .feedback-wrap {
   width: 996px;
 
   margin: 0 auto;
-  margin-top: 50px; 
-  
+  margin-top: 50px;
+
   background-image: url(img/writeme/annie-spratt--5-ZN1vzVTQ-unsplash\ 1.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
 
-  border-radius: 10px;  
+  border-radius: 10px;
 }
 
-.feedback fieldset {
-  border: none;
-
+.feedback-wrap form {  
   width: 837px;
 
-  margin: 0 auto;    
-  margin-top: 53px;
+  margin: 0 auto; 
+}
+
+.feedback-wrap fieldset {  
+  padding: 0;
+  margin: 0;
+
+  border: none;
+} 
+
+.write-me .contacts {
+  display: flex;
+  justify-content: space-between;
 }
 
 .feedback label {
+  margin-top: 50px;
+  display: block;
   font-family: "Spectral SC", serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 28px;
-  
-  color: #2E2F22;
+
+  color: #2e2f22;
 }
 
-fieldset::placeholder {
+.write-me fieldset::placeholder,
+.write-me input[type="text"],
+.write-me input[type="email"] {  
+  padding: 20px;
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 16px;
   line-height: 22px;
-  
+
   color: #202117;
+}
+
+fieldset::placeholder {
   opacity: 0.7;
 }
 
+.write-me input { 
+  box-sizing: border-box;
+
+   rgba(255, 255, 255, 0.4);
+  border: 1px solid #202117;  
+  border-radius: 10px;
+}
+
+.write-me input[type="text"],
+.write-me input[type="email"] {
+  margin-top: 12px;
+
+  width: 407px;
+  height: 63px;
+}
+
+.write-me input[type="submit"]{
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+
+  color: #202117;
+  background: transparent;
+}
+
+.message label {
+  margin-top: 20px;  
+}
+
+.message input[type="text"] {
+  width: 100%;
+  height: 293px;
+
+  vertical-align: top;
+}
+
 .page-footer {
-  background-color: #D7D1C9;
+  margin-top: 80px;
+  background-color: #d7d1c9;
 }
 
 .social-wrap {
@@ -397,9 +473,9 @@ fieldset::placeholder {
   margin: 0 auto;
 }
 
-.social-wrap a { 
+.social-wrap a {
   display: block;
-  
+
   margin-top: 65px;
   margin-bottom: 90px;
 
@@ -408,6 +484,6 @@ fieldset::placeholder {
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-  
-  color: #2E2F22;
+
+  color: #2e2f22;
 }
